@@ -1,0 +1,27 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  margin-bottom: 100px;
+}
+caption {
+  padding: 30px;
+  margin-bottom: 20px;
+}
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+footer {
+ padding-top: 200px; 
+ padding-bottom: 0;  
+}
+span{
+  font-weight: bold;
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+}

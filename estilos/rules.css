@@ -1,0 +1,37 @@
+body{
+    margin: 20px 200px;
+    padding: 0;
+}
+h1{
+ text-align: center;   
+}
+h3{
+    text-align: center;
+}
+nav{
+    text-align: right;
+    position: absolute;
+    top: 190px;
+    bottom: 190px;
+    right: 220px;
+}
+main{
+    padding-top: 60px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+article, ul {
+    list-style:inside;
+}
+dd, ol li, dt{
+    padding: 10px;
+}
+.sangria{
+    text-indent: 25px;
+}
+.letras{
+    List-style-type: lower-alpha
+}
