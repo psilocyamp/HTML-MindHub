@@ -1,0 +1,72 @@
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color:#ffffff96 ;
+}
+fieldset{
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #6a8e3f;
+}
+form fieldset{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin-bottom: 20px;
+}
+
+.form-group{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+}
+input[type="text" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+    background-color: #ffffff96;
+    border-color: #ffffff96;
+}
+input[type="date" i] {
+    font-family: monospace;
+  background-color: #ffffff96;
+  border-color: #ffffff96;
+  color:#6a8e3f
+}
+input#email{
+    width: 82%;
+    background-color: #ffffff96;
+    border-color: #ffffff96;
+}
+div, label{
+    padding: 3px;
+}
+
+legend{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.closestSchool{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 89px;
+    width: 50%;
+}
+@media(width <= 425px){
+    .maps{
+      padding: -13px;
+    }
+  .navList a {
+      margin-left: 0px;
+      }
+      .form-group{
+        flex-direction: column;
+    }
+      }

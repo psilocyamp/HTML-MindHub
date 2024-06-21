@@ -4,6 +4,10 @@ table {
   border: 1px solid #ddd;
   margin-bottom: 100px;
 }
+h2{
+  width: 100%;
+  text-align: center;
+}
 caption {
   padding: 30px;
   margin-bottom: 20px;
@@ -15,7 +19,6 @@ td {
   border-bottom: 1px solid #ddd;
 }
 footer {
- padding-top: 200px; 
  padding-bottom: 0;  
 }
 span{
