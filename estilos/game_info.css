@@ -18,13 +18,7 @@ td {
   text-align: center;
   border-bottom: 1px solid #ddd;
 }
-footer {
- padding-bottom: 0;  
-}
+
 span{
   font-weight: bold;
-}
-.contact {
-  display: flex;
-  justify-content: space-around;
 }

@@ -46,7 +46,6 @@ h1 {
 }
 
 .buttons {
-    color: white;
     background-color: #6a8e3ff5;
     border: 1px solid #87CEEB;
     padding: 10px;
@@ -61,21 +60,28 @@ h1 {
 }
 
 main {
-    min-height: 70vh;
+    min-height: 57vh;
     height: auto;
     background-color: #e5e5e5d1;
 }
 
 article {
     background-color: #ffffff96;
-    padding: 10px;
-    margin: 10px;
+    padding: 50px;
+    margin: 19px;
     border: 2px solid #e5e5e5;
+    box-shadow: 8px 8px #87ceeb99;
+}
+.events p{
+    margin: 23px
 }
 
 table {
     margin-bottom: 50px;
     background-color: #ffffff96;
+}
+tbody, td, th, tr{
+    border: 1px solid #6a8e3fd4;
 }
 
 h2 {
@@ -103,6 +109,9 @@ a {
 
 a[href="#"] {
     background-color: #f9d923;
+    color: #6a8e3ff5;
+    font-weight: bold;
+    text-shadow: 2px 2px #87ceeb99;
 }
 
 .maps {
@@ -110,19 +119,19 @@ a[href="#"] {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-
 footer {
     color: white;
     background-color: #ffa07ab7;
-    padding: 10px 0;
     text-align: center;
     clear: both;
+    padding-bottom: 6px; 
 }
-
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
 .copyright {
     text-align: center;
-    padding: 50px;
 }
 
 @media (width <=425px) {
@@ -146,31 +155,9 @@ nav{
         text-align: center;
     }
 }
+@media (width <=768px) {
+    body {
+        padding: 0px;
+    }
 
-
-
-
-
-
-/*
-
-
-
-        @media (width <=1024px) and (width <=768px) {
-            .header nav ul {
-                flex-direction: row;
-                justify-content: flex-end;
-            }
-        }
-
-        @media (width <=768px) {
-            header nav ul {
-                flex-direction: row;
-                justify-content: flex-start;
-            }
-
-        }
-
-        @media (width <=1440px) {}
-
-        @media (width > 1440px) {}*/
+}

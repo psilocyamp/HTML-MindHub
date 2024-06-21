@@ -1,11 +1,7 @@
 main{
     padding-top: 60px;
 }
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 article, ul {
     list-style:inside;
 }
@@ -16,5 +12,5 @@ dd, ol li, dt{
     text-indent: 25px;
 }
 .letras{
-    List-style-type: lower-alpha
+    List-style-type: lower-alpha;
 }

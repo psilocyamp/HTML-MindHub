@@ -51,7 +51,13 @@ legend{
     font-size: 20px;
     font-weight: bold;
 }
-
+.buttonSubmit{
+    color: #FFFFFF;
+    padding: 17px 26px;
+    font-size: 35px;
+    background-color: #6a8e3ff5;
+    border: 1px solid #87CEEB;
+}
 .closestSchool{
     display: flex;
     flex-direction: column;
